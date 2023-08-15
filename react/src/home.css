@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+
+.container {
+    padding: 10px 10px;
+    margin: 10px 90px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    height: 200px;
+    line-height: 100px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.logo h2 {
+    margin-left: 40px;
+}
+
+.logo a:hover {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover {
+    color: rgb(225, 65, 65);
+}
+
+.actions {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.login button,
+.logup button {
+    padding: 10px 15px;
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    border: 2px solid red;
+    font-size: 15px;
+}
+
+.login button:hover,
+.logup button:hover {
+    background-color: rgb(31, 236, 17);
+    color: white;
+    border: 3px solid white;
+}
+
+.login {
+    margin-right: 15px;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.banner img {
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.wp_product {
+    padding-top: 116px;
+    padding-bottom: 78px;
+    padding-left: 134px;
+    padding-right: 134px;
+}
+
+.listProduct {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ItemProduct {
+
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px
+}
+
+.ItemProduct img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 17px;
+    width: 80%;
+}
+
+.nd_product h3 {
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.nd_product p {
+    color: gainsboro;
+    margin-left: 20px;
+    font-size: smaller;
+}
+
+.nd_product span {
+    color: white;
+}
+
+.price span {
+    margin-left: 20px;
+    color: red;
+    font-size: 20px;
+}
+
+#footer {
+    background: #362f2f;
+    width: 100%;
+    height: 112px;
+    margin-top: 38px;
+    padding: 50px 63px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .box {
+    width: 250px;
+    color: aliceblue;
+    /* background-color: aquamarine; */
+}
+
+#footer .box .quick-menu {
+    margin-top: 40px;
+
+}
+
+#footer h2 a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#footer .box .quick-menu .item {
+    margin-bottom: 12px;
+
+}
+
+#footer .box .quick-menu,
+.item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#footer .box form button {
+    background: #362f2f;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color: #fff;
+}

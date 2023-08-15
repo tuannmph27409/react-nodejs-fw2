@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 888",
+      "price": "10001",
+      "desc": "san pham tot"
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "price": 200,
+      "desc": "san pham tot"
+    },
+    {
+      "name": "Sản phẩm C updated 4",
+      "price": "300",
+      "id": 3,
+      "desc": "san pham tot"
+    },
+    {
+      "id": 5,
+      "name": "Product A",
+      "price": 100,
+      "desc": "san pham tot"
+    },
+    {
+      "id": 6,
+      "name": "Product B",
+      "price": 200,
+      "desc": "san pham tot"
+    },
+    {
+      "name": "new products 1",
+      "price": "12121",
+      "desc": "san pham mơi update",
+      "id": 8
+    }
+  ]
+}
